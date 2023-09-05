@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #760c0c;
+  position: relative;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.margin{
+  margin-top: 5%;
+  margin-bottom: 40%;
+  background-color: aliceblue;
+}
+.person{
+  padding-right : 0;
+  background-color: #F0F8FF;
+  border-style: groove;
+}
+.factory{
+  padding-left : 0;
+  padding-right: 0;
+  background-color: #F0F8FF;
+  border-style: groove;
+}
+.main{
+  width: 500px;
+  padding: 15px;
+  margin-left: 25%;
+}
+
+.cardBackground{
+  background-color: rgb(255, 255, 255);
+  border-radius: 1%;
+  border-style: inherit;
+  padding: 15px  15px;
+  margin: 20px 20px;
+}
+hr{
+  background-color:black;
+  width: 100%;
+}
+.logo{
+  width: 10%;
+  height: 10%;
+  margin-bottom: 0;
+}
